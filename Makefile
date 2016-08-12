@@ -1,10 +1,10 @@
-all: JackTokeniser JackParser
+all: cppTokeniser JackParser
 
 TOKENH=myxml.h Tokenfinder.h Tokens.h
-TOKENCPP=JackTokeniser.cpp myxml.cpp Tokenfinder.cpp Tokens.cpp
+TOKENCPP=cppTokeniser.cpp myxml.cpp Tokenfinder.cpp Tokens.cpp
 
-JackTokeniser: ${TOKENCPP} ${TOKENH}
-	g++ -o JackTokeniser ${TOKENCPP}
+cppTokeniser: ${TOKENCPP} ${TOKENH}
+	g++ -o cppTokeniser ${TOKENCPP}
 	
 	
 PARSERH=myxml.h Tokenfinder.h ParserTokens.h Tokens.h
@@ -14,4 +14,4 @@ JackParser: ${PARSERCPP} ${PARSERH}
 	g++ -o JackParser ${PARSERCPP}
     
 clean:
-	rm -f JackTokeniser JackParser
+	rm -f cppTokeniser JackParser
