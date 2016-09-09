@@ -44,7 +44,7 @@ int main()
         //specify token type as integer, string or identifier
         else if (temptoken != "Empty") {
             //if string
-            if (temptoken[0] == '"') {
+            if ((temptoken[0] == '"') or (temptoken[0] == '\'')) {
                 //remove quotes
                 temptoken = temptoken.substr(1, temptoken.size() - 2);
                 xmlbuilder.addnode("stringConstant");

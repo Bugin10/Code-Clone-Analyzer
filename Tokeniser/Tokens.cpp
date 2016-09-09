@@ -46,6 +46,8 @@ Tokens::Tokens()
     token[">"] = "symbol";
     token["="] = "symbol";
     token["~"] = "symbol";
+    token["'"] = "symbol";
+    token["=="] = "symbol";
 }
 
 bool Tokens::contains(string intoken)
