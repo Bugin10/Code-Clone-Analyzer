@@ -36,12 +36,12 @@ progressBar () {
 taskCount=150
 tasksDone=0
 
-# for f in code/**/*.cpp  ; do
-#   sed -i -e '$a\' $f
-#   ./cppTokeniser.exe < $f > $f$extension
-#   (( tasksDone += 1 ))
-#   progressBar $taskCount $taskDone $f
-# done;
+for f in code/**/*.cpp  ; do
+  sed -i -e '$a\' $f
+  ./cppTokeniser.exe < $f > $f$extension
+  (( tasksDone += 1 ))
+  progressBar $taskCount $taskDone $f
+done;
 
 for f in code/**/*.cpp.tk.rs  ; do
   sed -i -e '$a\' $f
