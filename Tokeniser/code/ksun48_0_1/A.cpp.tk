@@ -1,52 +1,32 @@
 <tokens>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cstdio </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cstdlib </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cassert </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> iostream </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> string </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> using </identifier>
-  <identifier> namespace </identifier>
-  <identifier> std </identifier>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> LL </identifier>
-  <symbol> ; </symbol>
-  <identifier> main </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> FILE </identifier>
-  <symbol> * </symbol>
-  <identifier> fin </identifier>
-  <symbol> = </symbol>
-  <identifier> freopen </identifier>
-  <symbol> ( </symbol>
-  <stringConstant> A-large.in </stringConstant>
-  <symbol> , </symbol>
-  <stringConstant> r </stringConstant>
-  <symbol> , </symbol>
-  <identifier> stdin </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> assert </identifier>
-  <symbol> ( </symbol>
-  <identifier> fin! </identifier>
-  <symbol> = </symbol>
-</tokens>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<stringConstant>
+<symbol>
+<stringConstant>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+

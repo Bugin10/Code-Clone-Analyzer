@@ -1,358 +1,218 @@
 <tokens>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> iostream </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> numeric </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> iterator </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> vector </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> algorithm </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> set </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> map </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> queue </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> bitset </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> stack </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> string </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> sstream </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> math </identifier>
-  <symbol> . </symbol>
-  <identifier> h </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #define </identifier>
-  <identifier> REP </identifier>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> , </symbol>
-  <identifier> n </identifier>
-  <symbol> ) </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> ( </symbol>
-  <identifier> n </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <symbol> ) </symbol>
-  <identifier> #define </identifier>
-  <identifier> ITER </identifier>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> , </symbol>
-  <identifier> v </identifier>
-  <symbol> ) </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <identifier> auto </identifier>
-  <identifier> i </identifier>
-  <identifier> : </identifier>
-  <identifier> v </identifier>
-  <symbol> ) </symbol>
-  <identifier> #define </identifier>
-  <identifier> INF </identifier>
-  <integerConstant> 1000000000 </integerConstant>
-  <identifier> #define </identifier>
-  <identifier> F </identifier>
-  <symbol> ( </symbol>
-  <identifier> v </identifier>
-  <symbol> ) </symbol>
-  <symbol> ( </symbol>
-  <identifier> v </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> begin </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> , </symbol>
-  <symbol> ( </symbol>
-  <identifier> v </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> end </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <identifier> #ifdef </identifier>
-  <identifier> DEBUG </identifier>
-  <identifier> const </identifier>
-  <identifier> bool </identifier>
-  <identifier> DEBUG </identifier>
-  <symbol> = </symbol>
-  <keyword> true </keyword>
-  <symbol> ; </symbol>
-  <identifier> #else </identifier>
-  <identifier> const </identifier>
-  <identifier> bool </identifier>
-  <identifier> DEBUG </identifier>
-  <symbol> = </symbol>
-  <keyword> false </keyword>
-  <symbol> ; </symbol>
-  <identifier> #endif </identifier>
-  <identifier> using </identifier>
-  <identifier> namespace </identifier>
-  <identifier> std </identifier>
-  <symbol> ; </symbol>
-  <identifier> template </identifier>
-  <symbol> &lt; </symbol>
-  <keyword> class </keyword>
-  <identifier> T </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> using </identifier>
-  <identifier> priority_queue_asc </identifier>
-  <symbol> = </symbol>
-  <identifier> priority_queue </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> T </identifier>
-  <symbol> , </symbol>
-  <identifier> vector </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> T </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> , </symbol>
-  <identifier> greater </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> T </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> ll </identifier>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> vector </identifier>
-  <symbol> &lt; </symbol>
-  <keyword> int </keyword>
-  <symbol> &gt; </symbol>
-  <identifier> vi </identifier>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> pair </identifier>
-  <symbol> &lt; </symbol>
-  <keyword> int </keyword>
-  <symbol> , </symbol>
-  <keyword> int </keyword>
-  <symbol> &gt; </symbol>
-  <identifier> ii </identifier>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> vector </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> ii </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> vii </identifier>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> vector </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> vi </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> vvi </identifier>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> vector </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> vii </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> vvii </identifier>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> vector </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> bool </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> vb </identifier>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> main </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> ios_base::sync_with_stdio </identifier>
-  <symbol> ( </symbol>
-  <keyword> false </keyword>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> cin </identifier>
-  <symbol> . </symbol>
-  <identifier> tie </identifier>
-  <symbol> ( </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> TC </identifier>
-  <symbol> ; </symbol>
-  <identifier> cin </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> TC </identifier>
-  <symbol> ; </symbol>
-  <identifier> REP </identifier>
-  <symbol> ( </symbol>
-  <identifier> tc </identifier>
-  <symbol> , </symbol>
-  <identifier> TC </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> int </keyword>
-  <identifier> N </identifier>
-  <symbol> ; </symbol>
-  <identifier> cin </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> N </identifier>
-  <symbol> ; </symbol>
-  <identifier> vi </identifier>
-  <identifier> p </identifier>
-  <symbol> ( </symbol>
-  <identifier> N </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> REP </identifier>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> , </symbol>
-  <identifier> N </identifier>
-  <symbol> ) </symbol>
-  <identifier> cin </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> p </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> mintime </identifier>
-  <symbol> = </symbol>
-  <symbol> * </symbol>
-  <identifier> max_element </identifier>
-  <symbol> ( </symbol>
-  <identifier> F </identifier>
-  <symbol> ( </symbol>
-  <identifier> p </identifier>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> target </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> target </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> mintime </identifier>
-  <symbol> ; </symbol>
-  <identifier> target </identifier>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> int </keyword>
-  <identifier> splits </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> REP </identifier>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> , </symbol>
-  <identifier> N </identifier>
-  <symbol> ) </symbol>
-  <identifier> splits </identifier>
-  <symbol> + </symbol>
-  <symbol> = </symbol>
-  <symbol> ( </symbol>
-  <identifier> p </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> / </symbol>
-  <identifier> target </identifier>
-  <symbol> ; </symbol>
-  <identifier> mintime </identifier>
-  <symbol> = </symbol>
-  <identifier> min </identifier>
-  <symbol> ( </symbol>
-  <identifier> mintime </identifier>
-  <symbol> , </symbol>
-  <identifier> target </identifier>
-  <symbol> + </symbol>
-  <identifier> splits </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> tc </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> :  </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> mintime </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> \n </stringConstant>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> return </keyword>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-</tokens>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+

@@ -1,1006 +1,967 @@
 <tokens>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> exception </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> iostream </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> iomanip </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> template </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> typename </identifier>
-  <identifier> T </identifier>
-  <symbol> &gt; </symbol>
-  <keyword> void </keyword>
-  <identifier> validate </identifier>
-  <symbol> ( </symbol>
-  <identifier> T </identifier>
-  <identifier> parameter </identifier>
-  <symbol> , </symbol>
-  <identifier> T </identifier>
-  <identifier> min </identifier>
-  <symbol> , </symbol>
-  <identifier> T </identifier>
-  <identifier> max </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> parameter </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> min </identifier>
-  <symbol> &amp; </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> parameter </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> max </identifier>
-  <symbol> ) </symbol>
-  <identifier> throw </identifier>
-  <identifier> std::exception </identifier>
-  <symbol> ( </symbol>
-  <stringConstant> invalid parameter </stringConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> enum </identifier>
-  <identifier> Qmin </identifier>
-  <symbol> { </symbol>
-  <identifier> plus_one </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 2 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 3 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> minus_one </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 4 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> minus_i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 5 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> minus_j </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 6 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> minus_k </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 7 </integerConstant>
-  <symbol> } </symbol>
-  <symbol> ; </symbol>
-  <keyword> class </keyword>
-  <identifier> Problem </identifier>
-  <symbol> { </symbol>
-  <identifier> Qmin </identifier>
-  <symbol> * </symbol>
-  <identifier> str </identifier>
-  <symbol> ; </symbol>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> X </identifier>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> L </identifier>
-  <symbol> ; </symbol>
-  <identifier> Qmin </identifier>
-  <identifier> sumStr </identifier>
-  <symbol> ; </symbol>
-  <keyword> static </keyword>
-  <identifier> Qmin </identifier>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 8 </integerConstant>
-  <symbol> * </symbol>
-  <integerConstant> 3 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <identifier> inline </identifier>
-  <keyword> static </keyword>
-  <keyword> int </keyword>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> Qmin </identifier>
-  <identifier> f </identifier>
-  <symbol> , </symbol>
-  <identifier> Qmin </identifier>
-  <identifier> s </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> return </keyword>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <symbol> ) </symbol>
-  <identifier> f </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 8 </integerConstant>
-  <symbol> * </symbol>
-  <symbol> ( </symbol>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <symbol> ) </symbol>
-  <identifier> s </identifier>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> public: </identifier>
-  <keyword> static </keyword>
-  <keyword> void </keyword>
-  <identifier> prepare </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> plus_one </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> minus_one </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> minus_k </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> minus_one </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> minus_i </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> minus_i </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> plus_one </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> minus_j </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> minus_k </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> minus_j </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> plus_one </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> minus_one </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> minus_i </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> minus_one </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> minus_j </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> minus_i </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> minus_k </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> minus_j </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> plus_one </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> minus_k </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> plus_one </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> minus_j </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> minus_one </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> minus_one </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> minus_k </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> minus_i </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> minus_j </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> minus_i </identifier>
-  <symbol> ; </symbol>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> minus_k </identifier>
-  <symbol> , </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> plus_one </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> static </keyword>
-  <identifier> inline </identifier>
-  <identifier> Qmin </identifier>
-  <identifier> mult </identifier>
-  <symbol> ( </symbol>
-  <identifier> Qmin </identifier>
-  <identifier> f </identifier>
-  <symbol> , </symbol>
-  <identifier> Qmin </identifier>
-  <identifier> s </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> return </keyword>
-  <identifier> multbuff </identifier>
-  <symbol> [ </symbol>
-  <identifier> Qindex </identifier>
-  <symbol> ( </symbol>
-  <identifier> f </identifier>
-  <symbol> , </symbol>
-  <identifier> s </identifier>
-  <symbol> ) </symbol>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> static </keyword>
-  <identifier> inline </identifier>
-  <identifier> Qmin </identifier>
-  <identifier> power </identifier>
-  <symbol> ( </symbol>
-  <identifier> Qmin </identifier>
-  <identifier> f </identifier>
-  <symbol> , </symbol>
-  <keyword> int </keyword>
-  <identifier> x </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> switch </identifier>
-  <symbol> ( </symbol>
-  <identifier> x%4 </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> case </identifier>
-  <integerConstant> 0: </integerConstant>
-  <identifier> lus_one </identifier>
-  <symbol> ; </symbol>
-  <identifier> case </identifier>
-  <integerConstant> 1: </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> case </identifier>
-  <integerConstant> 2: </integerConstant>
-  <identifier>   </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> case </identifier>
-  <identifier> plus_one: </identifier>
-  <identifier> case </identifier>
-  <identifier> minus_one: </identifier>
-  <keyword> return </keyword>
-  <identifier> plus_one </identifier>
-  <symbol> ; </symbol>
-  <identifier> default: </identifier>
-  <keyword> return </keyword>
-  <identifier> minus_one </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> case </identifier>
-  <integerConstant> 3: </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> case </identifier>
-  <identifier> plus_one: </identifier>
-  <identifier> case </identifier>
-  <identifier> minus_one: </identifier>
-  <keyword> return </keyword>
-  <identifier> f </identifier>
-  <symbol> ; </symbol>
-  <identifier> default: </identifier>
-  <keyword> return </keyword>
-  <symbol> ( </symbol>
-  <identifier> Qmin </identifier>
-  <symbol> ) </symbol>
-  <symbol> ( </symbol>
-  <symbol> ( </symbol>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <symbol> ) </symbol>
-  <identifier> f </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 4 </integerConstant>
-  <symbol> ) </symbol>
-  <identifier> %8 </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> default: </identifier>
-  <identifier> throw </identifier>
-  <identifier> new </identifier>
-  <identifier> std::exception </identifier>
-  <symbol> ( </symbol>
-  <stringConstant> should be impossible to have another reminder </stringConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <keyword> void </keyword>
-  <identifier> read </identifier>
-  <symbol> ( </symbol>
-  <identifier> std::istream </identifier>
-  <symbol> &amp; </symbol>
-  <identifier> in </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> in </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> L </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> X </identifier>
-  <symbol> ; </symbol>
-  <identifier> validate </identifier>
-  <symbol> ( </symbol>
-  <identifier> L </identifier>
-  <symbol> , </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> , </symbol>
-  <integerConstant> 10000 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> validate </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> , </symbol>
-  <integerConstant> 1ll </integerConstant>
-  <symbol> , </symbol>
-  <integerConstant> 1000000000000ll </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> validate </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> * </symbol>
-  <identifier> L </identifier>
-  <symbol> , </symbol>
-  <integerConstant> 1ll </integerConstant>
-  <symbol> , </symbol>
-  <integerConstant> 10000000000000000ll </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> str </identifier>
-  <symbol> = </symbol>
-  <identifier> new </identifier>
-  <identifier> Qmin </identifier>
-  <symbol> [ </symbol>
-  <identifier> L </identifier>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <keyword> char </keyword>
-  <identifier> space </identifier>
-  <symbol> ; </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> L </identifier>
-  <symbol> ; </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> i </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> in </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> space </identifier>
-  <symbol> ; </symbol>
-  <identifier> switch </identifier>
-  <symbol> ( </symbol>
-  <identifier> space </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> case </identifier>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <identifier> : </identifier>
-  <identifier> str </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> ; </symbol>
-  <identifier> break </identifier>
-  <symbol> ; </symbol>
-  <identifier> case </identifier>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <identifier> : </identifier>
-  <identifier> str </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> ; </symbol>
-  <identifier> break </identifier>
-  <symbol> ; </symbol>
-  <identifier> case </identifier>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <identifier> : </identifier>
-  <identifier> str </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> ; </symbol>
-  <identifier> break </identifier>
-  <symbol> ; </symbol>
-  <identifier> default: </identifier>
-  <symbol> - </symbol>
-  <symbol> - </symbol>
-  <identifier> i </identifier>
-  <symbol> ; </symbol>
-  <identifier> break </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <identifier> sumStr </identifier>
-  <symbol> = </symbol>
-  <identifier> plus_one </identifier>
-  <symbol> ; </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> L </identifier>
-  <symbol> ; </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> i </identifier>
-  <symbol> ) </symbol>
-  <identifier> sumStr </identifier>
-  <symbol> = </symbol>
-  <identifier> mult </identifier>
-  <symbol> ( </symbol>
-  <identifier> sumStr </identifier>
-  <symbol> , </symbol>
-  <identifier> str </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> private: </identifier>
-  <keyword> int </keyword>
-  <identifier> iL </identifier>
-  <symbol> , </symbol>
-  <identifier> iX </identifier>
-  <symbol> ; </symbol>
-  <identifier> bool </identifier>
-  <identifier> result </identifier>
-  <symbol> ; </symbol>
-  <identifier> public: </identifier>
-  <identifier> bool </identifier>
-  <identifier> find </identifier>
-  <symbol> ( </symbol>
-  <identifier> Qmin </identifier>
-  <identifier> target </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> iX </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <keyword> false </keyword>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> check_total_max </identifier>
-  <symbol> = </symbol>
-  <identifier> L </identifier>
-  <symbol> * </symbol>
-  <integerConstant> 4 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> Qmin </identifier>
-  <identifier> now </identifier>
-  <symbol> = </symbol>
-  <identifier> plus_one </identifier>
-  <symbol> ; </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <symbol> ; </symbol>
-  <identifier> check_total_max </identifier>
-  <symbol> &gt; </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <symbol> - </symbol>
-  <symbol> - </symbol>
-  <identifier> check_total_max </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> now </identifier>
-  <symbol> = </symbol>
-  <identifier> mult </identifier>
-  <symbol> ( </symbol>
-  <identifier> now </identifier>
-  <symbol> , </symbol>
-  <identifier> str </identifier>
-  <symbol> [ </symbol>
-  <identifier> iL </identifier>
-  <symbol> ] </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> iL </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <identifier> L </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> iX </identifier>
-  <symbol> ; </symbol>
-  <identifier> iL </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> now </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <identifier> target </identifier>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <keyword> true </keyword>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> iX </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <keyword> false </keyword>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> return </keyword>
-  <keyword> false </keyword>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> void </keyword>
-  <identifier> solve </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> iL </identifier>
-  <symbol> = </symbol>
-  <identifier> iX </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> power </identifier>
-  <symbol> ( </symbol>
-  <identifier> sumStr </identifier>
-  <symbol> , </symbol>
-  <identifier> X%4 </identifier>
-  <symbol> ) </symbol>
-  <identifier> ! </identifier>
-  <symbol> = </symbol>
-  <identifier> minus_one </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> result </identifier>
-  <symbol> = </symbol>
-  <keyword> false </keyword>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <symbol> { </symbol>
-  <identifier> result </identifier>
-  <symbol> = </symbol>
-  <identifier> find </identifier>
-  <symbol> ( </symbol>
-  <identifier> plus_i </identifier>
-  <symbol> ) </symbol>
-  <symbol> &amp; </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> find </identifier>
-  <symbol> ( </symbol>
-  <identifier> plus_j </identifier>
-  <symbol> ) </symbol>
-  <symbol> &amp; </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> find </identifier>
-  <symbol> ( </symbol>
-  <identifier> plus_k </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier>   </identifier>
-  <identifier> eam </identifier>
-  <symbol> &amp; </symbol>
-  <identifier> out </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> out </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> ( </symbol>
-  <identifier> result </identifier>
-  <identifier> ? </identifier>
-  <stringConstant> YES&quot; </stringConstant>
-  <stringConstant> NO </stringConstant>
-  <symbol> ) </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> std::endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <symbol> ; </symbol>
-  <identifier> Qmin </identifier>
-  <identifier> Problem::multbuff </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 8 </integerConstant>
-  <symbol> * </symbol>
-  <integerConstant> 3 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> main </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> argc </identifier>
-  <symbol> , </symbol>
-  <keyword> char </keyword>
-  <symbol> * </symbol>
-  <symbol> * </symbol>
-  <identifier> argv </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> try </identifier>
-  <symbol> { </symbol>
-  <identifier> Problem::prepare </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> T </identifier>
-  <symbol> ; </symbol>
-  <identifier> std::cin </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> T </identifier>
-  <symbol> ; </symbol>
-  <identifier> validate </identifier>
-  <symbol> ( </symbol>
-  <identifier> T </identifier>
-  <symbol> , </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> , </symbol>
-  <integerConstant> 100 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> iT </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> iT </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> = </symbol>
-  <identifier> T </identifier>
-  <symbol> ; </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> iT </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> Problem </identifier>
-  <identifier> p </identifier>
-  <symbol> ; </symbol>
-  <identifier> p </identifier>
-  <symbol> . </symbol>
-  <identifier> read </identifier>
-  <symbol> ( </symbol>
-  <identifier> std::cin </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> p </identifier>
-  <symbol> . </symbol>
-  <identifier> solve </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> std::cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> iT </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> :  </stringConstant>
-  <symbol> ; </symbol>
-  <identifier> p </identifier>
-  <symbol> . </symbol>
-  <identifier> print </identifier>
-  <symbol> ( </symbol>
-  <identifier> std::cout </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <identifier> catch </identifier>
-  <symbol> ( </symbol>
-  <identifier> std::exception </identifier>
-  <symbol> &amp; </symbol>
-  <identifier> x </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> std::cerr </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> something went wrong:  </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> x </identifier>
-  <symbol> . </symbol>
-  <identifier> what </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> return </keyword>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-</tokens>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<stringConstant>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<keyword>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<keyword>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<integerConstant>
+<identifier>
+<symbol>
+<identifier>
+<integerConstant>
+<symbol>
+<identifier>
+<integerConstant>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<identifier>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<identifier>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<stringConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<keyword>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<keyword>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<keyword>
+<symbol>
+<symbol>
+<keyword>
+<keyword>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<stringConstant>
+<stringConstant>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<integerConstant>
+<symbol>
+<symbol>
+

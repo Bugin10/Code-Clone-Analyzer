@@ -1,167 +1,114 @@
 <tokens>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cstdio </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> algorithm </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cstring </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #define </identifier>
-  <identifier> f </identifier>
-  <symbol> ( </symbol>
-  <identifier> x </identifier>
-  <symbol> , </symbol>
-  <identifier> y </identifier>
-  <symbol> , </symbol>
-  <identifier> z </identifier>
-  <symbol> ) </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> x </identifier>
-  <symbol> = </symbol>
-  <symbol> ( </symbol>
-  <identifier> y </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> x </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> = </symbol>
-  <symbol> ( </symbol>
-  <identifier> z </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> x </identifier>
-  <symbol> ) </symbol>
-  <keyword> int </keyword>
-  <identifier> n </identifier>
-  <symbol> , </symbol>
-  <identifier> a </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 1007 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> main </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> int </keyword>
-  <identifier> T </identifier>
-  <symbol> ; </symbol>
-  <identifier> scanf </identifier>
-  <symbol> ( </symbol>
-  <stringConstant> %d </stringConstant>
-  <symbol> , </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> T </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> f </identifier>
-  <symbol> ( </symbol>
-  <identifier> _ </identifier>
-  <symbol> , </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> T </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> scanf </identifier>
-  <symbol> ( </symbol>
-  <stringConstant> %d </stringConstant>
-  <symbol> , </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> n </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> f </identifier>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> , </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> n </identifier>
-  <symbol> ) </symbol>
-  <identifier> scanf </identifier>
-  <symbol> ( </symbol>
-  <stringConstant> %d </stringConstant>
-  <symbol> , </symbol>
-  <identifier> a </identifier>
-  <symbol> + </symbol>
-  <identifier> i </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> ans </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 2333333 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> f </identifier>
-  <symbol> ( </symbol>
-  <identifier> j </identifier>
-  <symbol> , </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> , </symbol>
-  <integerConstant> 1000 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> int </keyword>
-  <identifier> cans </identifier>
-  <symbol> = </symbol>
-  <identifier> j </identifier>
-  <symbol> ; </symbol>
-  <identifier> f </identifier>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> , </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> n </identifier>
-  <symbol> ) </symbol>
-  <identifier> cans </identifier>
-  <symbol> + </symbol>
-  <symbol> = </symbol>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> / </symbol>
-  <identifier> j </identifier>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> cans </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> ans </identifier>
-  <symbol> ) </symbol>
-  <identifier> ans </identifier>
-  <symbol> = </symbol>
-  <identifier> cans </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> printf </identifier>
-  <symbol> ( </symbol>
-  <stringConstant> Case #%d: %d\n </stringConstant>
-  <symbol> , </symbol>
-  <identifier> _ </identifier>
-  <symbol> , </symbol>
-  <identifier> ans </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> return </keyword>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-</tokens>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<stringConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<stringConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<stringConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+

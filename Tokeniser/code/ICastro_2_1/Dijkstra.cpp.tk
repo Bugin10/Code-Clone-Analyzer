@@ -1,2560 +1,1409 @@
 <tokens>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> bits </identifier>
-  <symbol> / </symbol>
-  <identifier> stdc </identifier>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <symbol> . </symbol>
-  <identifier> h </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> using </identifier>
-  <identifier> namespace </identifier>
-  <identifier> std </identifier>
-  <symbol> ; </symbol>
-  <identifier> #define </identifier>
-  <identifier> size </identifier>
-  <symbol> ( </symbol>
-  <identifier> v </identifier>
-  <symbol> ) </symbol>
-  <keyword> int </keyword>
-  <symbol> ( </symbol>
-  <identifier> v </identifier>
-  <symbol> . </symbol>
-  <identifier> size </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <identifier> #define </identifier>
-  <identifier> MOD </identifier>
-  <integerConstant> 1000003 </integerConstant>
-  <identifier> #define </identifier>
-  <identifier> INF </identifier>
-  <integerConstant> 1e9 </integerConstant>
-  <identifier> #define </identifier>
-  <identifier> ulint </identifier>
-  <identifier> unsigned </identifier>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <keyword> int </keyword>
-  <identifier> #define </identifier>
-  <identifier> lint </identifier>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <keyword> int </keyword>
-  <identifier> #define </identifier>
-  <identifier> mp </identifier>
-  <identifier> make_pair </identifier>
-  <identifier> #define </identifier>
-  <identifier> pb </identifier>
-  <identifier> push_back </identifier>
-  <identifier> #define </identifier>
-  <identifier> pop </identifier>
-  <identifier> pop_back </identifier>
-  <identifier> #define </identifier>
-  <identifier> st </identifier>
-  <identifier> first </identifier>
-  <identifier> #define </identifier>
-  <identifier> nd </identifier>
-  <identifier> second </identifier>
-  <identifier> #define </identifier>
-  <identifier> all </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> begin </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> , </symbol>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> end </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <identifier> #define </identifier>
-  <identifier> E12 </identifier>
-  <integerConstant> 1000000000000 </integerConstant>
-  <identifier> struct </identifier>
-  <identifier> min_heap_comparator </identifier>
-  <symbol> { </symbol>
-  <identifier> bool </identifier>
-  <identifier> operator </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ( </symbol>
-  <identifier> const </identifier>
-  <identifier> long </identifier>
-  <symbol> &amp; </symbol>
-  <identifier> a </identifier>
-  <symbol> , </symbol>
-  <identifier> const </identifier>
-  <identifier> long </identifier>
-  <symbol> &amp; </symbol>
-  <identifier> b </identifier>
-  <symbol> ) </symbol>
-  <identifier> const </identifier>
-  <symbol> { </symbol>
-  <keyword> return </keyword>
-  <identifier> a </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> b </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <symbol> ; </symbol>
-  <identifier> #define </identifier>
-  <identifier> mh_min </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <identifier> make_heap </identifier>
-  <symbol> ( </symbol>
-  <identifier> all </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> , </symbol>
-  <identifier> min_heap_comparator </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> #define </identifier>
-  <identifier> poph_min </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> pop_heap </identifier>
-  <symbol> ( </symbol>
-  <identifier> all </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> , </symbol>
-  <identifier> min_heap_comparator </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> pop </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> #define </identifier>
-  <identifier> pushh_min </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> , </symbol>
-  <identifier> Y </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> pb </identifier>
-  <symbol> ( </symbol>
-  <identifier> Y </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> push_heap </identifier>
-  <symbol> ( </symbol>
-  <identifier> all </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> , </symbol>
-  <identifier> min_heap_comparator </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> #define </identifier>
-  <identifier> sorth_min </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <identifier> sort_heap </identifier>
-  <symbol> ( </symbol>
-  <identifier> all </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> , </symbol>
-  <identifier> min_heap_comparator </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> #define </identifier>
-  <identifier> mh_max </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <identifier> make_heap </identifier>
-  <symbol> ( </symbol>
-  <identifier> all </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> #define </identifier>
-  <identifier> poph_max </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> pop_heap </identifier>
-  <symbol> ( </symbol>
-  <identifier> all </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> pop </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> #define </identifier>
-  <identifier> pushh_max </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> , </symbol>
-  <identifier> Y </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> pb </identifier>
-  <symbol> ( </symbol>
-  <identifier> Y </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> push_heap </identifier>
-  <symbol> ( </symbol>
-  <identifier> all </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> #define </identifier>
-  <identifier> sorth_max </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <identifier> sort_heap </identifier>
-  <symbol> ( </symbol>
-  <identifier> all </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> main </identifier>
-  <symbol> ( </symbol>
-  <keyword> void </keyword>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> int </keyword>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> T </identifier>
-  <symbol> ; </symbol>
-  <identifier> cin </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> T </identifier>
-  <symbol> ; </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> t </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> t </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> T </identifier>
-  <symbol> ; </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> t </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> lint </identifier>
-  <identifier> L </identifier>
-  <symbol> , </symbol>
-  <identifier> X </identifier>
-  <symbol> ; </symbol>
-  <identifier> cin </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> L </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> X </identifier>
-  <symbol> ; </symbol>
-  <identifier> string </identifier>
-  <identifier> s </identifier>
-  <symbol> ; </symbol>
-  <identifier> cin </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> s </identifier>
-  <symbol> ; </symbol>
-  <identifier> nt </identifier>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <identifier> bool </identifier>
-  <identifier> hasI </identifier>
-  <symbol> = </symbol>
-  <keyword> false </keyword>
-  <symbol> ; </symbol>
-  <identifier> bool </identifier>
-  <identifier> hasJ </identifier>
-  <symbol> = </symbol>
-  <keyword> false </keyword>
-  <symbol> ; </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> size </identifier>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> i </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <identifier> atual </identifier>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <symbol> ) </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> hasI </identifier>
-  <symbol> = </symbol>
-  <keyword> true </keyword>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> &amp; </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> hasI </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> hasJ </identifier>
-  <symbol> = </symbol>
-  <keyword> true </keyword>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : NO </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> X%2 </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : NO </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> hasI </identifier>
-  <symbol> &amp; </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> hasJ </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : YES </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : NO </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <symbol> { </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> size </identifier>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> i </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <identifier> atual </identifier>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <symbol> ) </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> hasI </identifier>
-  <symbol> = </symbol>
-  <keyword> true </keyword>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> &amp; </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> hasI </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> hasJ </identifier>
-  <symbol> = </symbol>
-  <keyword> true </keyword>
-  <symbol> ; </symbol>
-  <identifier> break </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> hasJ </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : YES </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> !hasI </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : NO </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <symbol> { </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> size </identifier>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> i </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <identifier> atual </identifier>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <symbol> ) </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> hasJ </identifier>
-  <symbol> = </symbol>
-  <keyword> true </keyword>
-  <symbol> ; </symbol>
-  <identifier> break </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> hasJ </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : YES </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 3 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : NO </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <symbol> { </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> size </identifier>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> i </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <identifier> atual </identifier>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <symbol> ) </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> hasJ </identifier>
-  <symbol> = </symbol>
-  <keyword> true </keyword>
-  <symbol> ; </symbol>
-  <identifier> break </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> hasJ </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : YES </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : NO </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <symbol> { </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> X%4 </identifier>
-  <identifier> ! </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 2 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : NO </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <symbol> { </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> size </identifier>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> i </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <identifier> atual </identifier>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <symbol> ) </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> hasI </identifier>
-  <symbol> = </symbol>
-  <keyword> true </keyword>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> &amp; </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> hasI </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> hasJ </identifier>
-  <symbol> = </symbol>
-  <keyword> true </keyword>
-  <symbol> ; </symbol>
-  <identifier> break </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> hasJ </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : YES </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 2 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : NO </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <symbol> { </symbol>
-  <identifier> s </identifier>
-  <symbol> + </symbol>
-  <symbol> = </symbol>
-  <identifier> s </identifier>
-  <symbol> ; </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> size </identifier>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> i </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <identifier> atual </identifier>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <symbol> ) </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> hasI </identifier>
-  <symbol> = </symbol>
-  <keyword> true </keyword>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> &amp; </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> hasI </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> hasJ </identifier>
-  <symbol> = </symbol>
-  <keyword> true </keyword>
-  <symbol> ; </symbol>
-  <identifier> break </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> hasJ </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : YES </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> !hasI </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : NO </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <symbol> { </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> size </identifier>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> i </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <identifier> atual </identifier>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <symbol> ) </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> hasJ </identifier>
-  <symbol> = </symbol>
-  <keyword> true </keyword>
-  <symbol> ; </symbol>
-  <identifier> break </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> hasJ </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : YES </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 6 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : NO </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <symbol> { </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> size </identifier>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> i </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <identifier> multiplica </identifier>
-  <symbol> [ </symbol>
-  <identifier> atual </identifier>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <symbol> ) </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> atual </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> hasJ </identifier>
-  <symbol> = </symbol>
-  <keyword> true </keyword>
-  <symbol> ; </symbol>
-  <identifier> break </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> hasJ </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : YES </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> else </keyword>
-  <symbol> { </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> : NO </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <keyword> return </keyword>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-</tokens>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+

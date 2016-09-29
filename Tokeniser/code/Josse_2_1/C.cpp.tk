@@ -1,920 +1,854 @@
 <tokens>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> iostream </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cassert </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> limits </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> using </identifier>
-  <identifier> namespace </identifier>
-  <identifier> std </identifier>
-  <symbol> ; </symbol>
-  <identifier> #define </identifier>
-  <identifier> pos1 </identifier>
-  <integerConstant> 0 </integerConstant>
-  <identifier> #define </identifier>
-  <identifier> posI </identifier>
-  <integerConstant> 1 </integerConstant>
-  <identifier> #define </identifier>
-  <identifier> posJ </identifier>
-  <integerConstant> 2 </integerConstant>
-  <identifier> #define </identifier>
-  <identifier> posK </identifier>
-  <integerConstant> 3 </integerConstant>
-  <identifier> #define </identifier>
-  <identifier> neg1 </identifier>
-  <integerConstant> 4 </integerConstant>
-  <identifier> #define </identifier>
-  <identifier> negI </identifier>
-  <integerConstant> 5 </integerConstant>
-  <identifier> #define </identifier>
-  <identifier> negJ </identifier>
-  <integerConstant> 6 </integerConstant>
-  <identifier> #define </identifier>
-  <identifier> negK </identifier>
-  <integerConstant> 7 </integerConstant>
-  <identifier> const </identifier>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> MAX_LEN </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 10000 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> const </identifier>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> MAX_X </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 1000000000000ll </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> const </identifier>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> MAX_LX </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 10000000000000000ll </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> const </identifier>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> NOT_FOUND </identifier>
-  <symbol> = </symbol>
-  <identifier> numeric_limits </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> ::max </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> const </identifier>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> SOME_GENEROUS_UPPER_BOUND </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 20 </integerConstant>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> table </identifier>
-  <symbol> [ </symbol>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 4 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> { </symbol>
-  <symbol> { </symbol>
-  <identifier> pos1 </identifier>
-  <symbol> , </symbol>
-  <identifier> posI </identifier>
-  <symbol> , </symbol>
-  <identifier> posJ </identifier>
-  <symbol> , </symbol>
-  <identifier> posK </identifier>
-  <symbol> } </symbol>
-  <symbol> , </symbol>
-  <symbol> { </symbol>
-  <identifier> posI </identifier>
-  <symbol> , </symbol>
-  <identifier> neg1 </identifier>
-  <symbol> , </symbol>
-  <identifier> posK </identifier>
-  <symbol> , </symbol>
-  <identifier> negJ </identifier>
-  <symbol> } </symbol>
-  <symbol> , </symbol>
-  <symbol> { </symbol>
-  <identifier> posJ </identifier>
-  <symbol> , </symbol>
-  <identifier> negK </identifier>
-  <symbol> , </symbol>
-  <identifier> neg1 </identifier>
-  <symbol> , </symbol>
-  <identifier> posI </identifier>
-  <symbol> } </symbol>
-  <symbol> , </symbol>
-  <symbol> { </symbol>
-  <identifier> posK </identifier>
-  <symbol> , </symbol>
-  <identifier> posJ </identifier>
-  <symbol> , </symbol>
-  <identifier> negI </identifier>
-  <symbol> , </symbol>
-  <identifier> neg1 </identifier>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <symbol> ; </symbol>
-  <keyword> char </keyword>
-  <identifier> kar </identifier>
-  <symbol> [ </symbol>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> { </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> , </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> , </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> , </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> } </symbol>
-  <symbol> ; </symbol>
-  <identifier> struct </identifier>
-  <identifier> quaternion </identifier>
-  <symbol> { </symbol>
-  <keyword> int </keyword>
-  <identifier> val </identifier>
-  <symbol> ; </symbol>
-  <identifier> quaternion </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <identifier> : </identifier>
-  <identifier> val </identifier>
-  <symbol> ( </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <symbol> } </symbol>
-  <identifier> quaternion </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> _val </identifier>
-  <symbol> ) </symbol>
-  <identifier> : </identifier>
-  <identifier> val </identifier>
-  <symbol> ( </symbol>
-  <identifier> _val </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <symbol> } </symbol>
-  <identifier> bool </identifier>
-  <identifier> operator </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> ( </symbol>
-  <identifier> const </identifier>
-  <identifier> quaternion </identifier>
-  <symbol> &amp; </symbol>
-  <identifier> other </identifier>
-  <symbol> ) </symbol>
-  <identifier> const </identifier>
-  <symbol> { </symbol>
-  <keyword> return </keyword>
-  <identifier> val </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <identifier> other </identifier>
-  <symbol> . </symbol>
-  <identifier> val </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> bool </identifier>
-  <identifier> operator! </identifier>
-  <symbol> = </symbol>
-  <symbol> ( </symbol>
-  <identifier> const </identifier>
-  <identifier> quaternion </identifier>
-  <symbol> &amp; </symbol>
-  <identifier> other </identifier>
-  <symbol> ) </symbol>
-  <identifier> const </identifier>
-  <symbol> { </symbol>
-  <keyword> return </keyword>
-  <identifier> val </identifier>
-  <identifier> ! </identifier>
-  <symbol> = </symbol>
-  <identifier> other </identifier>
-  <symbol> . </symbol>
-  <identifier> val </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> quaternion </identifier>
-  <symbol> &amp; </symbol>
-  <identifier> operator </identifier>
-  <symbol> * </symbol>
-  <symbol> = </symbol>
-  <symbol> ( </symbol>
-  <identifier> const </identifier>
-  <identifier> quaternion </identifier>
-  <symbol> &amp; </symbol>
-  <identifier> other </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> int </keyword>
-  <identifier> sgn </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 4 </integerConstant>
-  <symbol> * </symbol>
-  <symbol> ( </symbol>
-  <identifier> val </identifier>
-  <symbol> / </symbol>
-  <integerConstant> 4 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> + </symbol>
-  <integerConstant> 4 </integerConstant>
-  <symbol> * </symbol>
-  <symbol> ( </symbol>
-  <identifier> other </identifier>
-  <symbol> . </symbol>
-  <identifier> val </identifier>
-  <symbol> / </symbol>
-  <integerConstant> 4 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> val </identifier>
-  <symbol> = </symbol>
-  <symbol> ( </symbol>
-  <identifier> table </identifier>
-  <symbol> [ </symbol>
-  <identifier> val </identifier>
-  <identifier> % </identifier>
-  <integerConstant> 4 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <identifier> other </identifier>
-  <symbol> . </symbol>
-  <identifier> val </identifier>
-  <identifier> % </identifier>
-  <integerConstant> 4 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> + </symbol>
-  <identifier> sgn </identifier>
-  <symbol> ) </symbol>
-  <identifier> % </identifier>
-  <integerConstant> 8 </integerConstant>
-  <symbol> ; </symbol>
-  <keyword> return </keyword>
-  <symbol> * </symbol>
-  <keyword> this </keyword>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> quaternion </identifier>
-  <identifier> operator </identifier>
-  <symbol> * </symbol>
-  <symbol> ( </symbol>
-  <identifier> const </identifier>
-  <identifier> quaternion </identifier>
-  <symbol> &amp; </symbol>
-  <identifier> other </identifier>
-  <symbol> ) </symbol>
-  <identifier> const </identifier>
-  <symbol> { </symbol>
-  <keyword> return </keyword>
-  <identifier> quaternion </identifier>
-  <symbol> ( </symbol>
-  <symbol> * </symbol>
-  <keyword> this </keyword>
-  <symbol> ) </symbol>
-  <symbol> * </symbol>
-  <symbol> = </symbol>
-  <identifier> other </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> friend </identifier>
-  <identifier> ostream </identifier>
-  <symbol> &amp; </symbol>
-  <identifier> operator </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> ( </symbol>
-  <identifier> ostream </identifier>
-  <symbol> &amp; </symbol>
-  <identifier> os </identifier>
-  <symbol> , </symbol>
-  <identifier> const </identifier>
-  <identifier> quaternion </identifier>
-  <symbol> &amp; </symbol>
-  <identifier> q </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> os </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> ( </symbol>
-  <identifier> q </identifier>
-  <symbol> . </symbol>
-  <identifier> val </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 4 </integerConstant>
-  <identifier> ? </identifier>
-  <stringConstant> - </stringConstant>
-  <identifier> : </identifier>
-  <stringConstant>  </stringConstant>
-  <symbol> ) </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> kar </identifier>
-  <symbol> [ </symbol>
-  <identifier> q </identifier>
-  <symbol> . </symbol>
-  <identifier> val </identifier>
-  <identifier> % </identifier>
-  <integerConstant> 4 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <keyword> return </keyword>
-  <identifier> os </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <symbol> ; </symbol>
-  <identifier> quaternion </identifier>
-  <identifier> pow </identifier>
-  <symbol> ( </symbol>
-  <identifier> quaternion </identifier>
-  <identifier> q </identifier>
-  <symbol> , </symbol>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> exponent </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> quaternion </identifier>
-  <identifier> ans </identifier>
-  <symbol> ; </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> = </symbol>
-  <identifier> exponent </identifier>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> exponent </identifier>
-  <symbol> &amp; </symbol>
-  <identifier> i </identifier>
-  <symbol> ) </symbol>
-  <identifier> ans </identifier>
-  <symbol> * </symbol>
-  <symbol> = </symbol>
-  <identifier> q </identifier>
-  <symbol> ; </symbol>
-  <identifier> q </identifier>
-  <symbol> * </symbol>
-  <symbol> = </symbol>
-  <identifier> q </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> return </keyword>
-  <identifier> ans </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> L </identifier>
-  <symbol> , </symbol>
-  <identifier> X </identifier>
-  <symbol> ; </symbol>
-  <identifier> quaternion </identifier>
-  <identifier> partial </identifier>
-  <symbol> [ </symbol>
-  <identifier> MAX_LEN </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <identifier> quaternion </identifier>
-  <identifier> powers </identifier>
-  <symbol> [ </symbol>
-  <identifier> SOME_GENEROUS_UPPER_BOUND </identifier>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> findPartial </identifier>
-  <symbol> ( </symbol>
-  <identifier> quaternion </identifier>
-  <identifier> q </identifier>
-  <symbol> , </symbol>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> start </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> int </keyword>
-  <identifier> practicalX </identifier>
-  <symbol> = </symbol>
-  <identifier> min </identifier>
-  <symbol> ( </symbol>
-  <identifier> SOME_GENEROUS_UPPER_BOUND </identifier>
-  <symbol> , </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> found </identifier>
-  <symbol> = </symbol>
-  <identifier> NOT_FOUND </identifier>
-  <symbol> ; </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> L </identifier>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> j </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> j </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> practicalX </identifier>
-  <symbol> ; </symbol>
-  <identifier> j </identifier>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> curPos </identifier>
-  <symbol> = </symbol>
-  <identifier> L </identifier>
-  <symbol> * </symbol>
-  <identifier> j </identifier>
-  <symbol> + </symbol>
-  <identifier> i </identifier>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> curPos </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> = </symbol>
-  <identifier> start </identifier>
-  <symbol> &amp; </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> powers </identifier>
-  <symbol> [ </symbol>
-  <identifier> j </identifier>
-  <symbol> ] </symbol>
-  <symbol> * </symbol>
-  <identifier> partial </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <identifier> q </identifier>
-  <symbol> ) </symbol>
-  <identifier> found </identifier>
-  <symbol> = </symbol>
-  <identifier> min </identifier>
-  <symbol> ( </symbol>
-  <identifier> found </identifier>
-  <symbol> , </symbol>
-  <identifier> curPos </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <keyword> return </keyword>
-  <identifier> found </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> bool </identifier>
-  <identifier> solve </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cin </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> L </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> X </identifier>
-  <symbol> ; </symbol>
-  <identifier> assert </identifier>
-  <symbol> ( </symbol>
-  <identifier> L </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &amp; </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> L </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> = </symbol>
-  <identifier> MAX_LEN </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> assert </identifier>
-  <symbol> ( </symbol>
-  <identifier> X </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &amp; </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> X </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> = </symbol>
-  <identifier> MAX_X </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> assert </identifier>
-  <symbol> ( </symbol>
-  <identifier> L </identifier>
-  <symbol> * </symbol>
-  <identifier> X </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> = </symbol>
-  <identifier> MAX_LX </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> string </identifier>
-  <identifier> s </identifier>
-  <symbol> ; </symbol>
-  <identifier> cin </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> s </identifier>
-  <symbol> ; </symbol>
-  <identifier> assert </identifier>
-  <symbol> ( </symbol>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <symbol> ) </symbol>
-  <identifier> s </identifier>
-  <symbol> . </symbol>
-  <identifier> size </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <identifier> L </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> partial </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> quaternion </identifier>
-  <symbol> ( </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> L </identifier>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> assert </identifier>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> | </symbol>
-  <symbol> | </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> | </symbol>
-  <symbol> | </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> partial </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> partial </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> * </symbol>
-  <symbol> ( </symbol>
-  <identifier> quaternion </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> h </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> } </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> assert </identifier>
-  <symbol> ( </symbol>
-  <identifier> pow </identifier>
-  <symbol> ( </symbol>
-  <identifier> partial </identifier>
-  <symbol> [ </symbol>
-  <identifier> L </identifier>
-  <symbol> ] </symbol>
-  <symbol> , </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <identifier> pow </identifier>
-  <symbol> ( </symbol>
-  <identifier> partial </identifier>
-  <symbol> [ </symbol>
-  <identifier> L </identifier>
-  <symbol> ] </symbol>
-  <symbol> , </symbol>
-  <identifier> X </identifier>
-  <identifier> % </identifier>
-  <integerConstant> 4 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> pow </identifier>
-  <symbol> ( </symbol>
-  <identifier> partial </identifier>
-  <symbol> [ </symbol>
-  <identifier> L </identifier>
-  <symbol> ] </symbol>
-  <symbol> , </symbol>
-  <identifier> X </identifier>
-  <symbol> ) </symbol>
-  <identifier> ! </identifier>
-  <symbol> = </symbol>
-  <identifier> neg1 </identifier>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <keyword> false </keyword>
-  <symbol> ; </symbol>
-  <identifier> powers </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> quaternion </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> SOME_GENEROUS_UPPER_BOUND </identifier>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> powers </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> powers </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> * </symbol>
-  <identifier> partial </identifier>
-  <symbol> [ </symbol>
-  <identifier> L </identifier>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <identifier> assert </identifier>
-  <symbol> ( </symbol>
-  <identifier> powers </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <identifier> pow </identifier>
-  <symbol> ( </symbol>
-  <identifier> partial </identifier>
-  <symbol> [ </symbol>
-  <identifier> L </identifier>
-  <symbol> ] </symbol>
-  <symbol> , </symbol>
-  <identifier> i </identifier>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> firstI </identifier>
-  <symbol> = </symbol>
-  <identifier> findPartial </identifier>
-  <symbol> ( </symbol>
-  <identifier> posI </identifier>
-  <symbol> , </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> firstI </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <identifier> NOT_FOUND </identifier>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <keyword> false </keyword>
-  <symbol> ; </symbol>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> firstK </identifier>
-  <symbol> = </symbol>
-  <identifier> findPartial </identifier>
-  <symbol> ( </symbol>
-  <identifier> posK </identifier>
-  <symbol> , </symbol>
-  <identifier> firstI </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> return </keyword>
-  <identifier> firstK </identifier>
-  <identifier> ! </identifier>
-  <symbol> = </symbol>
-  <identifier> NOT_FOUND </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> int </keyword>
-  <identifier> main </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> int </keyword>
-  <identifier> T </identifier>
-  <symbol> ; </symbol>
-  <identifier> cin </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> T </identifier>
-  <symbol> ; </symbol>
-  <identifier> assert </identifier>
-  <symbol> ( </symbol>
-  <identifier> T </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> &amp; </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> T </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 100 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> T </identifier>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <symbol> ) </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> :  </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> ( </symbol>
-  <identifier> solve </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <identifier> ? </identifier>
-  <stringConstant> YES </stringConstant>
-  <identifier> : </identifier>
-  <stringConstant> NO </stringConstant>
-  <symbol> ) </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <keyword> return </keyword>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-</tokens>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<integerConstant>
+<symbol>
+<keyword>
+<symbol>
+<keyword>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<identifier>
+<stringConstant>
+<identifier>
+<stringConstant>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<integerConstant>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<keyword>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+

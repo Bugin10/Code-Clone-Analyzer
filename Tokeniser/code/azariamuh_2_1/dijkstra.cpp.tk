@@ -1,795 +1,296 @@
 <tokens>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> iostream </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cstdio </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> algorithm </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cmath </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cstdlib </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> string </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cstring </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> vector </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cassert </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> using </identifier>
-  <identifier> namespace </identifier>
-  <identifier> std </identifier>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> inf </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 1000000000 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> LL </identifier>
-  <symbol> ; </symbol>
-  <identifier> #define </identifier>
-  <identifier> forn </identifier>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> , </symbol>
-  <identifier> b </identifier>
-  <symbol> , </symbol>
-  <identifier> c </identifier>
-  <symbol> ) </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <symbol> = </symbol>
-  <symbol> ( </symbol>
-  <identifier> b </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> = </symbol>
-  <symbol> ( </symbol>
-  <identifier> c </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <identifier> #define </identifier>
-  <identifier> ford </identifier>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> , </symbol>
-  <identifier> b </identifier>
-  <symbol> , </symbol>
-  <identifier> c </identifier>
-  <symbol> ) </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <symbol> = </symbol>
-  <symbol> ( </symbol>
-  <identifier> b </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <symbol> &gt; </symbol>
-  <symbol> = </symbol>
-  <symbol> ( </symbol>
-  <identifier> c </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> - </symbol>
-  <symbol> - </symbol>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <identifier> #define </identifier>
-  <identifier> reset </identifier>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> , </symbol>
-  <identifier> b </identifier>
-  <symbol> ) </symbol>
-  <identifier> memset </identifier>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> , </symbol>
-  <identifier> b </identifier>
-  <symbol> , </symbol>
-  <identifier> sizeof </identifier>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <identifier> #define </identifier>
-  <identifier> fi </identifier>
-  <identifier> first </identifier>
-  <identifier> #define </identifier>
-  <identifier> se </identifier>
-  <identifier> second </identifier>
-  <identifier> #define </identifier>
-  <identifier> mp </identifier>
-  <identifier> make_pair </identifier>
-  <identifier> #define </identifier>
-  <identifier> pb </identifier>
-  <identifier> push_back </identifier>
-  <identifier> #define </identifier>
-  <identifier> all </identifier>
-  <symbol> ( </symbol>
-  <identifier> v </identifier>
-  <symbol> ) </symbol>
-  <identifier> v </identifier>
-  <symbol> . </symbol>
-  <identifier> begin </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> , </symbol>
-  <identifier> v </identifier>
-  <symbol> . </symbol>
-  <identifier> end </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <keyword> int </keyword>
-  <identifier> T </identifier>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> kali </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 6 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <integerConstant> 6 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <symbol> { </symbol>
-  <symbol> { </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> , </symbol>
-  <integerConstant> 2 </integerConstant>
-  <symbol> , </symbol>
-  <integerConstant> 3 </integerConstant>
-  <symbol> , </symbol>
-  <integerConstant> 4 </integerConstant>
-  <symbol> } </symbol>
-  <symbol> , </symbol>
-  <symbol> { </symbol>
-  <integerConstant> 2 </integerConstant>
-  <symbol> , </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> , </symbol>
-  <integerConstant> 4 </integerConstant>
-  <symbol> , </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 3 </integerConstant>
-  <symbol> } </symbol>
-  <symbol> , </symbol>
-  <symbol> { </symbol>
-  <integerConstant> 3 </integerConstant>
-  <symbol> , </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 4 </integerConstant>
-  <symbol> , </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> , </symbol>
-  <integerConstant> 2 </integerConstant>
-  <symbol> } </symbol>
-  <symbol> , </symbol>
-  <symbol> { </symbol>
-  <integerConstant> 4 </integerConstant>
-  <symbol> , </symbol>
-  <integerConstant> 3 </integerConstant>
-  <symbol> , </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 2 </integerConstant>
-  <symbol> , </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> n </identifier>
-  <symbol> ; </symbol>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> x </identifier>
-  <symbol> ; </symbol>
-  <identifier> string </identifier>
-  <identifier> s </identifier>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> pre </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 10005 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> suf </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 10005 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> kecil </identifier>
-  <symbol> , </symbol>
-  <identifier> besar </identifier>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> mul </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> a </identifier>
-  <symbol> , </symbol>
-  <keyword> int </keyword>
-  <identifier> b </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> int </keyword>
-  <identifier> res </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> &lt; </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ) </symbol>
-  <identifier> res </identifier>
-  <symbol> * </symbol>
-  <symbol> = </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> a </identifier>
-  <symbol> * </symbol>
-  <symbol> = </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> b </identifier>
-  <symbol> &lt; </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ) </symbol>
-  <identifier> res </identifier>
-  <symbol> * </symbol>
-  <symbol> = </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> b </identifier>
-  <symbol> * </symbol>
-  <symbol> = </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <keyword> return </keyword>
-  <symbol> ( </symbol>
-  <identifier> res </identifier>
-  <symbol> * </symbol>
-  <identifier> kali </identifier>
-  <symbol> [ </symbol>
-  <identifier> a </identifier>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> [ </symbol>
-  <identifier> b </identifier>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> int </keyword>
-  <identifier> ubah </identifier>
-  <symbol> ( </symbol>
-  <keyword> char </keyword>
-  <identifier> x </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> x </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <integerConstant> 2 </integerConstant>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> x </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <integerConstant> 3 </integerConstant>
-  <symbol> ; </symbol>
-  <keyword> return </keyword>
-  <integerConstant> 4 </integerConstant>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> int </keyword>
-  <identifier> pangkat </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> x </identifier>
-  <symbol> , </symbol>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> y </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> y </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <identifier> x </identifier>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> temp </identifier>
-  <symbol> = </symbol>
-  <identifier> pangkat </identifier>
-  <symbol> ( </symbol>
-  <identifier> x </identifier>
-  <symbol> , </symbol>
-  <identifier> y </identifier>
-  <symbol> / </symbol>
-  <integerConstant> 2 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> y </identifier>
-  <identifier> % </identifier>
-  <integerConstant> 2 </integerConstant>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <identifier> mul </identifier>
-  <symbol> ( </symbol>
-  <identifier> temp </identifier>
-  <symbol> , </symbol>
-  <identifier> temp </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> return </keyword>
-  <identifier> mul </identifier>
-  <symbol> ( </symbol>
-  <identifier> mul </identifier>
-  <symbol> ( </symbol>
-  <identifier> temp </identifier>
-  <symbol> , </symbol>
-  <identifier> temp </identifier>
-  <symbol> ) </symbol>
-  <symbol> , </symbol>
-  <identifier> x </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> int </keyword>
-  <identifier> main </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> scanf </identifier>
-  <symbol> ( </symbol>
-  <stringConstant> %d </stringConstant>
-  <symbol> , </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> T </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> forn </identifier>
-  <symbol> ( </symbol>
-  <identifier> cases </identifier>
-  <symbol> , </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> T </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> printf </identifier>
-  <symbol> ( </symbol>
-  <stringConstant> Case #%d:  </stringConstant>
-  <symbol> , </symbol>
-  <identifier> cases </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> cin </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> n </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> x </identifier>
-  <symbol> ; </symbol>
-  <identifier> cin </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> s </identifier>
-  <symbol> ; </symbol>
-  <identifier> pre </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> ubah </identifier>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> forn </identifier>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> , </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> n </identifier>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> pre </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> mul </identifier>
-  <symbol> ( </symbol>
-  <identifier> pre </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> , </symbol>
-  <identifier> ubah </identifier>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> pangkat </identifier>
-  <symbol> ( </symbol>
-  <identifier> pre </identifier>
-  <symbol> [ </symbol>
-  <identifier> n </identifier>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> , </symbol>
-  <identifier> x </identifier>
-  <symbol> ) </symbol>
-  <identifier> ! </identifier>
-  <symbol> = </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> puts </identifier>
-  <symbol> ( </symbol>
-  <stringConstant> NO </stringConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> continue </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> suf </identifier>
-  <symbol> [ </symbol>
-  <identifier> n </identifier>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> ubah </identifier>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> n </identifier>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> ford </identifier>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> , </symbol>
-  <identifier> n </identifier>
-  <symbol> - </symbol>
-  <integerConstant> 2 </integerConstant>
-  <symbol> , </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> suf </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <identifier> mul </identifier>
-  <symbol> ( </symbol>
-  <identifier> ubah </identifier>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> ) </symbol>
-  <symbol> , </symbol>
-  <identifier> suf </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> kecil </identifier>
-  <symbol> = </symbol>
-  <identifier> besar </identifier>
-  <symbol> = </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> now </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> forn </identifier>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> , </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> min </identifier>
-  <symbol> ( </symbol>
-  <integerConstant> 32LL </integerConstant>
-  <symbol> , </symbol>
-  <identifier> x </identifier>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> forn </identifier>
-  <symbol> ( </symbol>
-  <identifier> j </identifier>
-  <symbol> , </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> n </identifier>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> mul </identifier>
-  <symbol> ( </symbol>
-  <identifier> now </identifier>
-  <symbol> , </symbol>
-  <identifier> pre </identifier>
-  <symbol> [ </symbol>
-  <identifier> j </identifier>
-  <symbol> ] </symbol>
-  <symbol> ) </symbol>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 2 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> kecil </identifier>
-  <symbol> = </symbol>
-  <identifier> i </identifier>
-  <symbol> * </symbol>
-  <identifier> n </identifier>
-  <symbol> + </symbol>
-  <identifier> j </identifier>
-  <symbol> ; </symbol>
-  <identifier> break </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> kecil </identifier>
-  <identifier> ! </identifier>
-  <symbol> = </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <identifier> break </identifier>
-  <symbol> ; </symbol>
-  <identifier> now </identifier>
-  <symbol> = </symbol>
-  <identifier> mul </identifier>
-  <symbol> ( </symbol>
-  <identifier> now </identifier>
-  <symbol> , </symbol>
-  <identifier> pre </identifier>
-  <symbol> [ </symbol>
-  <identifier> n </identifier>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> now </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> forn </identifier>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> , </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> min </identifier>
-  <symbol> ( </symbol>
-  <integerConstant> 32LL </integerConstant>
-  <symbol> , </symbol>
-  <identifier> x </identifier>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> forn </identifier>
-  <symbol> ( </symbol>
-  <identifier> j </identifier>
-  <symbol> , </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> n </identifier>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> mul </identifier>
-  <symbol> ( </symbol>
-  <identifier> suf </identifier>
-  <symbol> [ </symbol>
-  <identifier> n </identifier>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> - </symbol>
-  <identifier> j </identifier>
-  <symbol> ] </symbol>
-  <symbol> , </symbol>
-  <identifier> now </identifier>
-  <symbol> ) </symbol>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 4 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> besar </identifier>
-  <symbol> = </symbol>
-  <identifier> x </identifier>
-  <symbol> * </symbol>
-  <identifier> n </identifier>
-  <symbol> - </symbol>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> * </symbol>
-  <identifier> n </identifier>
-  <symbol> + </symbol>
-  <identifier> j </identifier>
-  <symbol> ) </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> break </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> besar </identifier>
-  <identifier> ! </identifier>
-  <symbol> = </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <identifier> break </identifier>
-  <symbol> ; </symbol>
-  <identifier> now </identifier>
-  <symbol> = </symbol>
-  <identifier> mul </identifier>
-  <symbol> ( </symbol>
-  <identifier> suf </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> , </symbol>
-  <identifier> now </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> puts </identifier>
-  <symbol> ( </symbol>
-  <identifier> kecil </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> besar </identifier>
-  <identifier> ? </identifier>
-  <stringConstant> YES </stringConstant>
-  <identifier> : </identifier>
-  <stringConstant> NO </stringConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> return </keyword>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-</tokens>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<integerConstant>
+<symbol>
+<integerConstant>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<integerConstant>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<integerConstant>
+<symbol>
+<keyword>
+<integerConstant>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<identifier>
+<integerConstant>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<stringConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+

@@ -1,607 +1,247 @@
 <tokens>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> vector </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> list </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> map </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> set </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> deque </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> stack </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> bitset </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> algorithm </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <keyword> function </keyword>
-  <identifier> al </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> numeric </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> utility </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> sstream </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> queue </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> iostream </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> iomanip </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cstdio </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cmath </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cstdlib </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cctype </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> string </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cstring </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> ctime </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> fstream </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> stdio </identifier>
-  <symbol> . </symbol>
-  <identifier> h </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> complex </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cstdint </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #define </identifier>
-  <identifier> M_PI </identifier>
-  <integerConstant> 3 </integerConstant>
-  <symbol> . </symbol>
-  <integerConstant> 14159265358979323846 </integerConstant>
-  <identifier> using </identifier>
-  <identifier> namespace </identifier>
-  <identifier> std </identifier>
-  <symbol> ; </symbol>
-  <identifier> inline </identifier>
-  <keyword> int </keyword>
-  <identifier> toInt </identifier>
-  <symbol> ( </symbol>
-  <identifier> string </identifier>
-  <identifier> s </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> int </keyword>
-  <identifier> v </identifier>
-  <symbol> ; </symbol>
-  <identifier> istringstream </identifier>
-  <identifier> sin </identifier>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> sin </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> v </identifier>
-  <symbol> ; </symbol>
-  <keyword> return </keyword>
-  <identifier> v </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> template </identifier>
-  <symbol> &lt; </symbol>
-  <keyword> class </keyword>
-  <identifier> T </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> inline </identifier>
-  <identifier> string </identifier>
-  <identifier> toString </identifier>
-  <symbol> ( </symbol>
-  <identifier> T </identifier>
-  <identifier> x </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> ostringstream </identifier>
-  <identifier> sout </identifier>
-  <symbol> ; </symbol>
-  <identifier> sout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> x </identifier>
-  <symbol> ; </symbol>
-  <keyword> return </keyword>
-  <identifier> sout </identifier>
-  <symbol> . </symbol>
-  <identifier> str </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> typedef </identifier>
-  <identifier> vector </identifier>
-  <symbol> &lt; </symbol>
-  <keyword> int </keyword>
-  <symbol> &gt; </symbol>
-  <identifier> VI </identifier>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> vector </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> VI </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> VVI </identifier>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> vector </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> string </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> VS </identifier>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> pair </identifier>
-  <symbol> &lt; </symbol>
-  <keyword> int </keyword>
-  <symbol> , </symbol>
-  <keyword> int </keyword>
-  <symbol> &gt; </symbol>
-  <identifier> PII </identifier>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> pair </identifier>
-  <symbol> &lt; </symbol>
-  <keyword> int </keyword>
-  <symbol> , </symbol>
-  <identifier> PII </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> TIII </identifier>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> LL </identifier>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> unsigned </identifier>
-  <identifier> long </identifier>
-  <identifier> long </identifier>
-  <identifier> ULL </identifier>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> vector </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> LL </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> VLL </identifier>
-  <symbol> ; </symbol>
-  <identifier> typedef </identifier>
-  <identifier> vector </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> VLL </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> VVLL </identifier>
-  <symbol> ; </symbol>
-  <identifier> #define </identifier>
-  <identifier> ALL </identifier>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> begin </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> , </symbol>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> end </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <identifier> #define </identifier>
-  <identifier> RALL </identifier>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> rbegin </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> , </symbol>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> rend </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <identifier> #define </identifier>
-  <identifier> PB </identifier>
-  <identifier> push_back </identifier>
-  <identifier> #define </identifier>
-  <identifier> MP </identifier>
-  <identifier> make_pair </identifier>
-  <identifier> #define </identifier>
-  <identifier> SZ </identifier>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <keyword> int </keyword>
-  <symbol> ( </symbol>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> size </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <identifier> #define </identifier>
-  <identifier> EACH </identifier>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> , </symbol>
-  <identifier> c </identifier>
-  <symbol> ) </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <identifier> typeof </identifier>
-  <symbol> ( </symbol>
-  <symbol> ( </symbol>
-  <identifier> c </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> begin </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <symbol> ( </symbol>
-  <identifier> c </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> begin </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> i! </identifier>
-  <symbol> = </symbol>
-  <symbol> ( </symbol>
-  <identifier> c </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> end </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> i </identifier>
-  <symbol> ) </symbol>
-  <identifier> #define </identifier>
-  <identifier> EXIST </identifier>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> , </symbol>
-  <identifier> e </identifier>
-  <symbol> ) </symbol>
-  <symbol> ( </symbol>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> find </identifier>
-  <symbol> ( </symbol>
-  <identifier> e </identifier>
-  <symbol> ) </symbol>
-  <identifier> ! </identifier>
-  <symbol> = </symbol>
-  <symbol> ( </symbol>
-  <identifier> s </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> end </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <identifier> #define </identifier>
-  <identifier> SORT </identifier>
-  <symbol> ( </symbol>
-  <identifier> c </identifier>
-  <symbol> ) </symbol>
-  <identifier> sort </identifier>
-  <symbol> ( </symbol>
-  <symbol> ( </symbol>
-  <identifier> c </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> begin </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> , </symbol>
-  <symbol> ( </symbol>
-  <identifier> c </identifier>
-  <symbol> ) </symbol>
-  <symbol> . </symbol>
-  <identifier> end </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <identifier> #define </identifier>
-  <identifier> MT </identifier>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> , </symbol>
-  <identifier> b </identifier>
-  <symbol> , </symbol>
-  <identifier> c </identifier>
-  <symbol> ) </symbol>
-  <identifier> MP </identifier>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> , </symbol>
-  <identifier> MP </identifier>
-  <symbol> ( </symbol>
-  <identifier> b </identifier>
-  <symbol> , </symbol>
-  <identifier> c </identifier>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <identifier> #define </identifier>
-  <identifier> T1 </identifier>
-  <identifier> first </identifier>
-  <identifier> #define </identifier>
-  <identifier> T2 </identifier>
-  <identifier> second </identifier>
-  <symbol> . </symbol>
-  <identifier> first </identifier>
-  <identifier> #define </identifier>
-  <identifier> T3 </identifier>
-  <identifier> second </identifier>
-  <symbol> . </symbol>
-  <identifier> second </identifier>
-  <identifier> #define </identifier>
-  <identifier> FOR </identifier>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> , </symbol>
-  <identifier> a </identifier>
-  <symbol> , </symbol>
-  <identifier> b </identifier>
-  <symbol> ) </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> ( </symbol>
-  <identifier> b </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <identifier> i </identifier>
-  <symbol> ) </symbol>
-  <identifier> #define </identifier>
-  <identifier> REP </identifier>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> , </symbol>
-  <identifier> n </identifier>
-  <symbol> ) </symbol>
-  <identifier> FOR </identifier>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> , </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> n </identifier>
-  <symbol> ) </symbol>
-  <identifier> #define </identifier>
-  <identifier> MOD </identifier>
-  <integerConstant> 1000000007 </integerConstant>
-  <keyword> void </keyword>
-  <identifier> solve </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> int </keyword>
-  <identifier> s </identifier>
-  <symbol> ; </symbol>
-  <identifier> string </identifier>
-  <identifier> str </identifier>
-  <symbol> ; </symbol>
-  <identifier> cin </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> s </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> str </identifier>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> t </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> ans </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> REP </identifier>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> , </symbol>
-  <identifier> s </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <symbol> = </symbol>
-  <identifier> str </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> ] </symbol>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> t </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <symbol> ; </symbol>
-  <identifier> ans </identifier>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> t </identifier>
-  <symbol> - </symbol>
-  <symbol> - </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> printf </identifier>
-  <symbol> ( </symbol>
-  <stringConstant> %d\n </stringConstant>
-  <symbol> , </symbol>
-  <identifier> ans </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> int </keyword>
-  <identifier> main </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> freopen </identifier>
-  <symbol> ( </symbol>
-  <stringConstant> in.txt </stringConstant>
-  <symbol> , </symbol>
-  <stringConstant> r </stringConstant>
-  <symbol> , </symbol>
-  <identifier> stdin </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> freopen </identifier>
-  <symbol> ( </symbol>
-  <stringConstant> out.txt </stringConstant>
-  <symbol> , </symbol>
-  <stringConstant> w </stringConstant>
-  <symbol> , </symbol>
-  <identifier> stdout </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> T </identifier>
-  <symbol> ; </symbol>
-  <identifier> scanf </identifier>
-  <symbol> ( </symbol>
-  <stringConstant> %d </stringConstant>
-  <symbol> , </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> T </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> REP </identifier>
-  <symbol> ( </symbol>
-  <identifier> t </identifier>
-  <symbol> , </symbol>
-  <identifier> T </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> printf </identifier>
-  <symbol> ( </symbol>
-  <stringConstant> Case #%d:  </stringConstant>
-  <symbol> , </symbol>
-  <identifier> t </identifier>
-  <symbol> + </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> solve </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> return </keyword>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-</tokens>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<stringConstant>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<stringConstant>
+<symbol>
+<stringConstant>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<stringConstant>
+<symbol>
+<stringConstant>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<stringConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+

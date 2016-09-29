@@ -1,0 +1,44 @@
+#include <bits/stdc++.h>
+
+#define FO(i,a,b) for (int i = (a); i < (b); i++)
+#define sz(v) int(v.size())
+
+#define O 1
+#define I 2
+#define J 3
+#define K 4
+
+using namespace std;
+
+typedef long long ll;
+
+int S[4][4] = {
+    {1, I, J, K},
+    {I, -1, K, -J},
+    {J, -K, -1, I},
+    {K, J, -I, -1}
+};
+
+char C[] = "ijk";
+int V[] = {I,J,K};
+
+int toi(char ch) {
+    FO(i,0,3) if (C[i] == ch) return V[i];
+    assert(false);
+    return 0;
+}
+
+int mul(int a, int b) {
+    int s = 1;
+    if (a < 0) {
+        s *= -1;
+        a *= -1;
+    }
+    if (b < 0) {
+        s *= -1;
+        b *= -1;
+    }
+    return s * S[a-1][b-1];
+}
+
+int pw(int a, ll b) {

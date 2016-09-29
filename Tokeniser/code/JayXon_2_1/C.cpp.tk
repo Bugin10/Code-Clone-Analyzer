@@ -1,608 +1,401 @@
 <tokens>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> iostream </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> fstream </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cstring </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> string </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> algorithm </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <keyword> function </keyword>
-  <identifier> al </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cmath </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> cstdint </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> #include </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> vector </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> using </identifier>
-  <identifier> namespace </identifier>
-  <identifier> std </identifier>
-  <symbol> ; </symbol>
-  <keyword> char </keyword>
-  <identifier> multiply </identifier>
-  <symbol> ( </symbol>
-  <keyword> char </keyword>
-  <identifier> a </identifier>
-  <symbol> , </symbol>
-  <keyword> char </keyword>
-  <identifier> b </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> &lt; </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <symbol> - </symbol>
-  <identifier> multiply </identifier>
-  <symbol> ( </symbol>
-  <symbol> - </symbol>
-  <identifier> a </identifier>
-  <symbol> , </symbol>
-  <identifier> b </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> b </identifier>
-  <symbol> &lt; </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <symbol> - </symbol>
-  <identifier> multiply </identifier>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> , </symbol>
-  <symbol> - </symbol>
-  <identifier> b </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <identifier> b </identifier>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> b </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <identifier> a </identifier>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <identifier> b </identifier>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <symbol> - </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> a </identifier>
-  <symbol> &gt; </symbol>
-  <identifier> b </identifier>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <symbol> - </symbol>
-  <identifier> multiply </identifier>
-  <symbol> ( </symbol>
-  <identifier> b </identifier>
-  <symbol> , </symbol>
-  <identifier> a </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> b </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <symbol> &apos; </symbol>
-  <identifier> k </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <keyword> return </keyword>
-  <identifier> a </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <identifier> ? </identifier>
-  <symbol> - </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> j </identifier>
-  <symbol> &apos; </symbol>
-  <identifier> : </identifier>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> void </keyword>
-  <identifier> solve_case </identifier>
-  <symbol> ( </symbol>
-  <keyword> if </keyword>
-  <identifier> stream </identifier>
-  <symbol> &amp; </symbol>
-  <identifier> fin </identifier>
-  <symbol> , </symbol>
-  <identifier> ofstream </identifier>
-  <symbol> &amp; </symbol>
-  <identifier> fout </identifier>
-  <symbol> , </symbol>
-  <keyword> int </keyword>
-  <identifier> case_num </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> int </keyword>
-  <integerConstant> 64_t </integerConstant>
-  <identifier> l </identifier>
-  <symbol> , </symbol>
-  <identifier> x </identifier>
-  <symbol> ; </symbol>
-  <identifier> string </identifier>
-  <identifier> s </identifier>
-  <symbol> ; </symbol>
-  <identifier> fin </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> l </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> x </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> s </identifier>
-  <symbol> ; </symbol>
-  <keyword> char </keyword>
-  <identifier> t </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> for </identifier>
-  <symbol> ( </symbol>
-  <identifier> auto </identifier>
-  <identifier> c </identifier>
-  <identifier> : </identifier>
-  <identifier> s </identifier>
-  <symbol> ) </symbol>
-  <identifier> t </identifier>
-  <symbol> = </symbol>
-  <identifier> multiply </identifier>
-  <symbol> ( </symbol>
-  <identifier> t </identifier>
-  <symbol> , </symbol>
-  <identifier> c </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> n </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> , </symbol>
-  <identifier> nothing </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <keyword> char </keyword>
-  <identifier> c </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <keyword> while </keyword>
-  <symbol> ( </symbol>
-  <identifier> x </identifier>
-  <symbol> &amp; </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> n </identifier>
-  <symbol> &lt; </symbol>
-  <integerConstant> 3 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> while </keyword>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> s </identifier>
-  <symbol> . </symbol>
-  <identifier> size </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> &amp; </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> c </identifier>
-  <identifier> ! </identifier>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> + </symbol>
-  <identifier> n </identifier>
-  <symbol> ) </symbol>
-  <identifier> c </identifier>
-  <symbol> = </symbol>
-  <identifier> multiply </identifier>
-  <symbol> ( </symbol>
-  <identifier> c </identifier>
-  <symbol> , </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <symbol> ] </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <identifier> s </identifier>
-  <symbol> . </symbol>
-  <identifier> size </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> i </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> x </identifier>
-  <symbol> - </symbol>
-  <symbol> - </symbol>
-  <symbol> ; </symbol>
-  <identifier> nothing </identifier>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> nothing </identifier>
-  <symbol> &gt; </symbol>
-  <integerConstant> 4 </integerConstant>
-  <symbol> ) </symbol>
-  <identifier> x </identifier>
-  <identifier> % </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 4 </integerConstant>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> c </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <symbol> &apos; </symbol>
-  <identifier> i </identifier>
-  <symbol> &apos; </symbol>
-  <symbol> + </symbol>
-  <identifier> n </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> n </identifier>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <symbol> ; </symbol>
-  <identifier> c </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> nothing </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> n </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 3 </integerConstant>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> c </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> while </keyword>
-  <symbol> ( </symbol>
-  <identifier> i </identifier>
-  <symbol> &lt; </symbol>
-  <identifier> s </identifier>
-  <symbol> . </symbol>
-  <identifier> size </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <identifier> c </identifier>
-  <symbol> = </symbol>
-  <identifier> multiply </identifier>
-  <symbol> ( </symbol>
-  <identifier> c </identifier>
-  <symbol> , </symbol>
-  <identifier> s </identifier>
-  <symbol> [ </symbol>
-  <identifier> i </identifier>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <symbol> ] </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> x </identifier>
-  <symbol> - </symbol>
-  <symbol> - </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <identifier> x </identifier>
-  <identifier> % </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 4 </integerConstant>
-  <symbol> ; </symbol>
-  <keyword> while </keyword>
-  <symbol> ( </symbol>
-  <identifier> x </identifier>
-  <symbol> - </symbol>
-  <symbol> - </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> c </identifier>
-  <symbol> = </symbol>
-  <identifier> multiply </identifier>
-  <symbol> ( </symbol>
-  <identifier> c </identifier>
-  <symbol> , </symbol>
-  <identifier> t </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <symbol> } </symbol>
-  <identifier> cout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> x </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> &apos; </symbol>
-  <symbol> &apos; </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> c </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> &apos; </symbol>
-  <symbol> &apos; </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> n </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <identifier> fout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Case # </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> case_num </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> :  </stringConstant>
-  <symbol> ; </symbol>
-  <identifier> fout </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> ( </symbol>
-  <symbol> ( </symbol>
-  <identifier> n </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 3 </integerConstant>
-  <symbol> &amp; </symbol>
-  <symbol> &amp; </symbol>
-  <identifier> c </identifier>
-  <symbol> = </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ) </symbol>
-  <identifier> ? </identifier>
-  <stringConstant> YES </stringConstant>
-  <identifier> : </identifier>
-  <stringConstant> NO </stringConstant>
-  <symbol> ) </symbol>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> int </keyword>
-  <identifier> main </identifier>
-  <symbol> ( </symbol>
-  <keyword> int </keyword>
-  <identifier> argc </identifier>
-  <symbol> , </symbol>
-  <keyword> char </keyword>
-  <identifier> const </identifier>
-  <symbol> * </symbol>
-  <identifier> argv </identifier>
-  <symbol> [ </symbol>
-  <symbol> ] </symbol>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> argc </identifier>
-  <identifier> ! </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 2 </integerConstant>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <keyword> char </keyword>
-  <identifier> name </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 256 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> ; </symbol>
-  <identifier> strcpy </identifier>
-  <symbol> ( </symbol>
-  <identifier> name </identifier>
-  <symbol> , </symbol>
-  <identifier> argv </identifier>
-  <symbol> [ </symbol>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <identifier> stream </identifier>
-  <identifier> fin </identifier>
-  <symbol> ( </symbol>
-  <identifier> name </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> name </identifier>
-  <symbol> [ </symbol>
-  <identifier> strlen </identifier>
-  <symbol> ( </symbol>
-  <identifier> name </identifier>
-  <symbol> ) </symbol>
-  <symbol> - </symbol>
-  <integerConstant> 2 </integerConstant>
-  <symbol> ] </symbol>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> strcat </identifier>
-  <symbol> ( </symbol>
-  <identifier> name </identifier>
-  <symbol> , </symbol>
-  <stringConstant> out </stringConstant>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <identifier> ofstream </identifier>
-  <identifier> fout </identifier>
-  <symbol> ( </symbol>
-  <identifier> name </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <keyword> if </keyword>
-  <symbol> ( </symbol>
-  <identifier> !fin </identifier>
-  <symbol> . </symbol>
-  <identifier> is_open </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> | </symbol>
-  <symbol> | </symbol>
-  <identifier> !fout </identifier>
-  <symbol> . </symbol>
-  <identifier> is_open </identifier>
-  <symbol> ( </symbol>
-  <symbol> ) </symbol>
-  <symbol> ) </symbol>
-  <keyword> return </keyword>
-  <integerConstant> 1 </integerConstant>
-  <symbol> ; </symbol>
-  <keyword> int </keyword>
-  <identifier> t </identifier>
-  <symbol> , </symbol>
-  <identifier> t1 </identifier>
-  <symbol> = </symbol>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <identifier> fin </identifier>
-  <symbol> &gt; </symbol>
-  <symbol> &gt; </symbol>
-  <identifier> t </identifier>
-  <symbol> ; </symbol>
-  <keyword> while </keyword>
-  <symbol> ( </symbol>
-  <identifier> t1 </identifier>
-  <symbol> + </symbol>
-  <symbol> + </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t </identifier>
-  <symbol> ) </symbol>
-  <symbol> { </symbol>
-  <identifier> cerr </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <stringConstant> Solving case  </stringConstant>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> t1 </identifier>
-  <symbol> &lt; </symbol>
-  <symbol> &lt; </symbol>
-  <identifier> endl </identifier>
-  <symbol> ; </symbol>
-  <identifier> solve_case </identifier>
-  <symbol> ( </symbol>
-  <identifier> fin </identifier>
-  <symbol> , </symbol>
-  <identifier> fout </identifier>
-  <symbol> , </symbol>
-  <identifier> t1 </identifier>
-  <symbol> ) </symbol>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-  <keyword> return </keyword>
-  <integerConstant> 0 </integerConstant>
-  <symbol> ; </symbol>
-  <symbol> } </symbol>
-</tokens>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<integerConstant>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<integerConstant>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<identifier>
+<identifier>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<keyword>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<integerConstant>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<identifier>
+<symbol>
+<integerConstant>
+<symbol>
+<keyword>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+<identifier>
+<symbol>
+<identifier>
+<symbol>
+<symbol>
+

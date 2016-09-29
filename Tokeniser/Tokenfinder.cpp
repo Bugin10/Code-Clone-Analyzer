@@ -15,6 +15,11 @@ Tokenfinder::Tokenfinder()
         line += '\r';
         linenumber++;
     }
+    if (line.find("#") != string::npos) {
+        line = line.substr(0, line.find("#"));
+        line += '\r';
+        linenumber++;
+    }
     index = 0;
     //initialise statuses
     stringstatus = false;
@@ -94,6 +99,11 @@ string Tokenfinder::getNextToken()
                     line = line.substr(0, line.find("//"));
                     line += '\r';
                 }
+                if (line.find("#") != string::npos) {
+                    line = line.substr(0, line.find("#"));
+                    line += '\r';
+                    linenumber++;
+                }
             }
             index = 0;
             //return the generated token
@@ -124,6 +134,11 @@ string Tokenfinder::getNextToken()
         if (line.find("//") != string::npos) {
             line = line.substr(0, line.find("//"));
             line += '\r';
+        }
+        if (line.find("#") != string::npos) {
+            line = line.substr(0, line.find("#"));
+            line += '\r';
+            linenumber++;
         }
         //line is empty
         return "Empty";
