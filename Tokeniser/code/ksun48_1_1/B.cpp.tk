@@ -2,20 +2,20 @@
 <identifier>
 <identifier>
 <identifier>
-<symbol>
+<col>
 <identifier>
 <identifier>
 <identifier>
 <identifier>
-<symbol>
+<col>
 <identifier>
 <symbol>
 <symbol>
 <symbol>
 <identifier>
-<symbol>
+<multiply>
 <identifier>
-<symbol>
+<set>
 <identifier>
 <symbol>
 <stringConstant>
@@ -24,9 +24,9 @@
 <symbol>
 <identifier>
 <symbol>
-<symbol>
+<col>
 <identifier>
 <symbol>
 <identifier>
-<symbol>
+<set>
 

@@ -6,6 +6,7 @@ using namespace std;
 #include <vector>
 #include <iterator>
 #include <algorithm> // for std::copy
+#include <iomanip>  
 
 int main(int argc,char *argv[])
 {
@@ -14,7 +15,7 @@ int main(int argc,char *argv[])
     std::istream_iterator<string> start1(is1), end1;
     std::vector<string> file1(start1, end1);
 
-    cout<<argv[2];
+    
     std::ifstream is2(argv[2]);
     std::istream_iterator<string> start2(is2), end2;
     std::vector<string> file2(start2, end2);
@@ -30,17 +31,28 @@ int main(int argc,char *argv[])
             if(file1[i] == file2[j])
             {
                 j++;
+                int k = i;
+                k++;
                 if(j>=file2.size())
                 {
                     break;
                 }
-                while(file1[i] == file2[j])
+                if(k>=file1.size())
+                {
+                    break;
+                }
+                while(file1[k] == file2[j])
                 {
 
                     score+= scoreMulti;
-                    scoreMulti = scoreMulti *2;
+                    scoreMulti = scoreMulti += 2;
                     j++;
+                    k++;
                     if(j>=file2.size())
+                    {
+                        break;
+                    }
+                    if(k>=file1.size())
                     {
                         break;
                     }
@@ -50,7 +62,7 @@ int main(int argc,char *argv[])
         }
     }
     score /= fileSize;
-    cout<<"  |  " <<score<<endl;
+    cout<<setw(50) <<left <<argv[2]<< "  |  "<<score<<endl;
 
     // std::copy(numbers.begin(), numbers.end(), 
     // std::ostream_iterator<string>(std::cout, " "));

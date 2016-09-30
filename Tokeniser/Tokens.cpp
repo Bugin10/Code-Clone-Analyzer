@@ -5,49 +5,46 @@ Tokens::Tokens()
 {
     //token map
     //keywords
-    token["class"] = "keyword";
-    token["constructor"] = "keyword";
-    token["function"] = "keyword";
-    token["method"] = "keyword";
-    token["field"] = "keyword";
-    token["static"] = "keyword";
-    token["var"] = "keyword";
-    token["int"] = "keyword";
-    token["char"] = "keyword";
-    token["boolean"] = "keyword";
-    token["void"] = "keyword";
-    token["true"] = "keyword";
-    token["false"] = "keyword";
-    token["null"] = "keyword";
-    token["this"] = "keyword";
-    token["let"] = "keyword";
-    token["do"] = "keyword";
-    token["if"] = "keyword";
-    token["else"] = "keyword";
-    token["while"] = "keyword";
-    token["return"] = "keyword";
+    token["class"] = "class";
+    token["function"] = "function";
+    token["method"] = "method";
+    token["static"] = "static";
+    token["int"] = "int";
+    token["char"] = "char";
+    token["bool"] = "bool";
+    token["void"] = "void";
+    token["true"] = "true";
+    token["false"] = "false";
+    token["null"] = "null";
+    token["this"] = "this";
+    token["let"] = "let";
+    token["do"] = "do";
+    token["if"] = "if";
+    token["else"] = "else";
+    token["while"] = "while";
+    token["return"] = "return";
     //symbol
     token["{"] = "symbol";
     token["}"] = "symbol";
     token["("] = "symbol";
     token[")"] = "symbol";
-    token["["] = "symbol";
-    token["]"] = "symbol";
+    token["["] = "indl";
+    token["]"] = "indr";
     token["."] = "symbol";
     token[","] = "symbol";
-    token[";"] = "symbol";
-    token["+"] = "symbol";
-    token["-"] = "symbol";
-    token["*"] = "symbol";
-    token["/"] = "symbol";
-    token["&"] = "symbol";
-    token["|"] = "symbol";
-    token["<"] = "symbol";
-    token[">"] = "symbol";
-    token["="] = "symbol";
+    token[";"] = "col";
+    token["+"] = "add";
+    token["-"] = "sub";
+    token["*"] = "multiply";
+    token["/"] = "divide";
+    token["&"] = "and";
+    token["|"] = "or";
+    token["<"] = "lt";
+    token[">"] = "gt";
+    token["="] = "set";
     token["~"] = "symbol";
     token["'"] = "symbol";
-    token["=="] = "symbol";
+    token["=="] = "eq";
 }
 
 bool Tokens::contains(string intoken)

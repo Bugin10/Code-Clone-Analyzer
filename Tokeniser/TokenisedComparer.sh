@@ -58,19 +58,6 @@ for f in code/**/*.cpp.tk  ; do
     done; 
     (( tasksDone += 1 ))
     progressBar $taskCount $taskDone 
-    #printf "$f"
+
 done;
 
-
-
-# for f in code/**/*.cpp  ; do
-#   for h in code/**/*.cpp  ; do
-#     echo $h >> temp
-#     sed -i -e '$a\' $h    
-#   done;
-#   echo $f
-#   (( tasksDone += 1 ))
-#   progressBar $taskCount $taskDone $text
-#   sed -i -e '$a\' $f
-#   ./cppTokeniser.exe < $f > $f$extension
-# done;
