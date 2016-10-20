@@ -1,5 +1,6 @@
 extension=".tk"
 result=".rs"
+self=".self"
 
 progressBarWidth=50
 
@@ -33,8 +34,12 @@ progressBar () {
 
 
 ## Collect task count
-taskCount=150
+taskCount=0
 tasksDone=0
+
+for f in code/**/*.cpp ; do
+ (( taskCount += 1 ))
+done;
 
 for f in code/**/*.cpp  ; do
   sed -i -e '$a\' $f
@@ -43,10 +48,16 @@ for f in code/**/*.cpp  ; do
   progressBar $taskCount $taskDone $f
 done;
 
+
 for f in code/**/*.cpp.tk.rs  ; do
   sed -i -e '$a\' $f
   echo "Begin" > $f
 done;
+
+# for f in code/**/*.cpp.tk ; do
+#   sed -i -e '$a\' $f
+#   ./TokenComparer.exe $f > $f$result$self
+# done;
 
 tasksDone=0
 progressBar $taskCount $taskDone $f
@@ -54,7 +65,7 @@ for f in code/**/*.cpp.tk  ; do
     echo "Comparing: " $f >> $f$result
     for h in code/**/*.cpp.tk  ; do
       sed -i -e '$a\' $h 
-      ./TokenComparer.exe $f $h >> $f$result
+      ./TokenComparer.exe $f $h $f$result$self >> $f$result
     done; 
     (( tasksDone += 1 ))
     progressBar $taskCount $taskDone 
