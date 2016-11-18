@@ -3,7 +3,6 @@ result=".rs"
 self=".self"
 
 progressBarWidth=50
-
 # Function to draw progress bar
 progressBar () {
 
@@ -32,15 +31,16 @@ progressBar () {
 }
 
 
-
 ## Collect task count
 taskCount=0
 tasksDone=0
 
+# count number of files to process
 for f in code/**/*.cpp ; do
  (( taskCount += 1 ))
 done;
 
+# tokenise each file
 for f in code/**/*.cpp  ; do
   sed -i -e '$a\' $f
   ./cppTokeniser.exe < $f > $f$extension
@@ -48,19 +48,17 @@ for f in code/**/*.cpp  ; do
   progressBar $taskCount $taskDone $f
 done;
 
-
+# clear each results file
 for f in code/**/*.cpp.tk.rs  ; do
   sed -i -e '$a\' $f
   echo "Begin" > $f
 done;
 
-# for f in code/**/*.cpp.tk ; do
-#   sed -i -e '$a\' $f
-#   ./TokenComparer.exe $f > $f$result$self
-# done;
-
+# reset progress bar
 tasksDone=0
 progressBar $taskCount $taskDone $f
+
+# compare tokenised files
 for f in code/**/*.cpp.tk  ; do
     echo "Comparing: " $f >> $f$result
     for h in code/**/*.cpp.tk  ; do
@@ -68,7 +66,6 @@ for f in code/**/*.cpp.tk  ; do
       ./TokenComparer.exe $f $h $f$result$self >> $f$result
     done; 
     (( tasksDone += 1 ))
-    progressBar $taskCount $taskDone 
-
+    progressBar $taskCount $taskDone
 done;
 
